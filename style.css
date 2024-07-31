@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+#frete {
+    text-align: center;
+    background-color:#F3F7FF;
+    width: 100vw;
+    padding: 10px;
+}
+
+#michael {  
+    background: url('imagens/michael-jordan.png');
+    background-size: cover;
+    width: 100vw;
+    height: 350px;
+}
+
+aside {
+    color: white;
+}
+
+aside > h1 {
+    font-family: ;
+}
