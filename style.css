@@ -1,32 +1,36 @@
-@charset "UTF-8";
+@charset "UTF-8"; /*Mobile frist*/
 
-@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&display=swap');
-
-
-* {
+ * {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-}
+    font-family: Arial, Helvetica, sans-serif;
+ }
 
-#frete {
+ #frete {
+    background-color: whitesmoke;
+    padding: 15px;
     text-align: center;
-    background-color:#F3F7FF;
-    width: 100vw;
-    padding: 10px;
-}
+    font-weight: bold;
+ }
 
-#michael {  
-    background: url('imagens/michael-jordan.png');
+ #imagem {
+    background: black url('imagens/michael-jordan.png') no-repeat;
     background-size: cover;
+    background-position: right center;
     width: 100vw;
     height: 350px;
-}
+    
+ }
 
-aside {
+ #txt1 {
+    width: 80vw;
+    margin: auto;
     color: white;
-}
+    padding-top: 80px;
+ }
 
-aside > h1 {
-    font-family: ;
-}
+ #txt1 > h2 {
+    padding-top: 40px;
+    padding-bottom: 20px;
+ }
