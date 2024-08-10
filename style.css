@@ -33,7 +33,15 @@
     position: relative;
  }
 
+ #txt1 > p > img {
+   width: 20px;
+ }
+
  #txt1 > h2 {
     padding-top: 40px;
     padding-bottom: 20px;
+ }
+
+ #txt2 {
+   width: 350px;
  }
