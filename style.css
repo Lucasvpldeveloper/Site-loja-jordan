@@ -8,7 +8,8 @@
  }
 
  #frete {
-    background-color: whitesmoke;
+    background-color: #F3F7FF;
+    ;
     padding: 15px;
     text-align: center;
     font-weight: bold;
@@ -18,7 +19,7 @@
     background: url('imagens/michael-jordan.png') no-repeat;
     background-size: cover;
     background-position: right center;
-    width: 100vw;
+    width: 375px;
     height: 350px;
     position: absolute;
     filter: brightness(38%);
@@ -44,4 +45,8 @@
 
  #txt2 {
    width: 350px;
+ }
+
+ #tenis1 {
+   margin: auto;
  }
