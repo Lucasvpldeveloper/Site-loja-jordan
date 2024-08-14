@@ -19,8 +19,8 @@
     background: url('imagens/michael-jordan.png') no-repeat;
     background-size: cover;
     background-position: right center;
-    width: 375px;
-    height: 350px;
+    width: 100vw;
+    height: 50%;
     position: absolute;
     filter: brightness(38%);
  }
@@ -47,6 +47,48 @@
    width: 350px;
  }
 
- #tenis1 {
-   margin: auto;
+ main {
+   margin-top: 140px;
  }
+
+ #melhores {
+   text-align: center;
+   padding: 20px;
+ }
+
+ #melhores > p {
+   padding: 10px;
+ }
+
+.tenis {
+   padding: 10px;
+}
+
+#txt3 > a {
+   text-decoration: none;
+}
+
+ .tenis > div > img{
+   margin: auto;
+   display: flex;
+   background-color: rgba(223, 223, 223, 0.718);
+   width: 375px;
+ }
+
+#p1 {
+   margin-left: 15px;
+   padding: 15px;
+ }
+
+ #txt3 > a {
+   margin-left: 30px;
+ }
+
+ #valores {
+   margin-left: 30px;
+   padding-top: 30px;
+   padding-bottom: 30px;
+ }
+
+
+
